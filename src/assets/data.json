@@ -1,0 +1,339 @@
+{
+    "crew": [
+    {
+        "id": 1,
+        "firstName": "Keanu 111",
+        "lastName": "Horton",
+        "race": "HUMAN",
+        "position": "Capitan"
+    },
+    {
+        "id": 2,
+        "firstName": "Sia",
+        "lastName": "Bains",
+        "race": "HUMAN",
+        "position": "Second officer"
+    },
+    {
+        "id": 3,
+        "firstName": "Blane",
+        "lastName": "Thompson",
+        "race": "HUMAN",
+        "position": "Operations coordinator"
+    },
+    {
+        "id": 4,
+        "firstName": "Jesse",
+        "lastName": "Lyons",
+        "race": "HUMAN",
+        "position": "Communication officer"
+    },
+    {
+        "id": 5,
+        "firstName": "Al'arok",
+        "lastName": "",
+        "race": "SKRULL",
+        "position": "Security officer"
+    },
+    {
+        "id": 6,
+        "firstName": "Jora'thrll",
+        "lastName": "",
+        "race": "SKRULL",
+        "position": "Security officer"
+    },
+    {
+        "id": 7,
+        "firstName": "Elleanor",
+        "lastName": "Park",
+        "race": "KREE",
+        "position": "Security officer"
+    },
+    {
+        "id": 8,
+        "firstName": "Caspian",
+        "lastName": "Carroll",
+        "race": "CHITAURI",
+        "position": "Chief enginer"
+    },
+    {
+        "id": 9,
+        "firstName": "Danniella",
+        "lastName": "Dalby",
+        "race": "CHITAURI",
+        "position": ""
+    },
+    {
+        "id": 10,
+        "firstName": "Chante",
+        "lastName": "Mills",
+        "race": "LIZARD",
+        "position": "Cook"
+    },
+    {
+        "id": 11,
+        "firstName": "Daneel",
+        "lastName": "Olivaw",
+        "race": "ROBOT",
+        "position": "First officer"
+    },
+    {
+        "id": 12,
+        "firstName": "Giskard",
+        "lastName": "Reventlov",
+        "race": "ROBOT",
+        "position": "Mission specialist"
+    }
+],
+"starship": {
+    "owner": "United Earth",
+    "class": "Galaxy",
+    "name": "Buran",
+    "number": "FL-01",
+    "build": "2040-01-01T00:00:00.000Z",
+    "crew": [
+        {
+            "id": 1,
+            "firstName": "Keanu",
+            "lastName": "Horton",
+            "race": "HUMAN",
+            "position": "Capitan"
+        },
+        {
+            "id": 2,
+            "firstName": "Sia",
+            "lastName": "Bains",
+            "race": "HUMAN",
+            "position": "Second officer"
+        },
+        {
+            "id": 3,
+            "firstName": "Blane",
+            "lastName": "Thompson",
+            "race": "HUMAN",
+            "position": "Operations coordinator"
+        },
+        {
+            "id": 4,
+            "firstName": "Jesse",
+            "lastName": "Lyons",
+            "race": "HUMAN",
+            "position": "Communication officer"
+        },
+        {
+            "id": 5,
+            "firstName": "Al'arok",
+            "lastName": "",
+            "race": "SKRULL",
+            "position": "Security officer"
+        },
+        {
+            "id": 6,
+            "firstName": "Jora'thrll",
+            "lastName": "",
+            "race": "SKRULL",
+            "position": "Security officer"
+        },
+        {
+            "id": 7,
+            "firstName": "Elleanor",
+            "lastName": "Park",
+            "race": "KREE",
+            "position": "Security officer"
+        },
+        {
+            "id": 8,
+            "firstName": "Caspian",
+            "lastName": "Carroll",
+            "race": "CHITAURI",
+            "position": "Chief enginer"
+        },
+        {
+            "id": 9,
+            "firstName": "Danniella",
+            "lastName": "Dalby",
+            "race": "CHITAURI",
+            "position": ""
+        },
+        {
+            "id": 10,
+            "firstName": "Chante",
+            "lastName": "Mills",
+            "race": "LIZARD",
+            "position": "Cook"
+        },
+        {
+            "id": 11,
+            "firstName": "Daneel",
+            "lastName": "Olivaw",
+            "race": "ROBOT",
+            "position": "First officer"
+        },
+        {
+            "id": 12,
+            "firstName": "Giskard",
+            "lastName": "Reventlov",
+            "race": "ROBOT",
+            "position": "Mission specialist"
+        }
+    ],
+    "tractor_beam": 0,
+    "engines": {
+        "warp": 5,
+        "impulse": 1
+    },
+    "shields": {
+        "hull": "plating",
+        "deflectors": ""
+    },
+    "weapons": {
+        "canons": [
+            {
+                "name": "Pulse",
+                "qtty": 2
+            },
+            {
+                "name": "Plasma",
+                "qtty": 0
+            },
+            {
+                "name": "Phase",
+                "qtty": 1
+            },
+            {
+                "name": "Disruptor",
+                "qtty": 0
+            }
+        ],
+        "torpedos": [
+            {
+                "name": "Plasma",
+                "tubes": 1,
+                "qtty": 2
+            },
+            {
+                "name": "Gravimetric",
+                "tubes": 0,
+                "qtty": 0
+            },
+            {
+                "name": "Quantum",
+                "tubes": 0,
+                "qtty": 0
+            },
+            {
+                "name": "Polaron",
+                "tubes": 0,
+                "qtty": 0
+            },
+            {
+                "name": "Transphasic",
+                "tubes": 0,
+                "qtty": 0
+            },
+            {
+                "name": "Isokinetic",
+                "tubes": 1,
+                "qtty": 10
+            },
+            {
+                "name": "Phased plasma",
+                "tubes": 0,
+                "qtty": 0
+            },
+            {
+                "name": "Chroniton",
+                "tubes": 0,
+                "qtty": 0
+            },
+            {
+                "name": "Positron",
+                "tubes": 0,
+                "qtty": 0
+            }
+        ]
+    }
+},
+"position":[
+    {
+        "value": "Capitan",
+        "text": "Capitan",
+        "maxMembers": 1
+    },
+    {
+        "value": "First officer",
+        "text": "First officer",
+        "maxMembers": 1
+    },
+    {
+        "value": "Second officer",
+        "text": "Second officer",
+        "maxMembers": 1
+    },
+    {
+        "value": "Operations coordinator",
+        "text": "Operations coordinator",
+        "maxMembers": 1
+    },
+    {
+        "value": "Communication officer",
+        "text": "Communication officer",
+        "maxMembers": 1
+    },
+    {
+        "value": "Security officer",
+        "text": "Security officer",
+        "maxMembers": 4
+    },
+    {
+        "value": "Chief enginer",
+        "text": "Chief enginer",
+        "maxMembers": 1
+    },
+    {
+        "value": "Enginer",
+        "text": "Enginer",
+        "maxMembers": 3
+    },
+    {
+        "value": "Mission specialist",
+        "text": "Mission specialist",
+        "maxMembers": 1
+    },
+    {
+        "value": "Cook",
+        "text": "Cook",
+        "maxMembers": 2
+    }
+],
+"race":[
+    {
+        "value": "HUMAN",
+        "text": "Human"
+    },
+    {
+        "value": "SKRULL",
+        "text": "Skrull"
+    },
+    {
+        "value": "KREE",
+        "text": "Kree"
+    },
+    {
+        "value": "CHITAURI",
+        "text": "Chitauri"
+    },
+    {
+        "value": "LIZARD",
+        "text": "Lizard"
+    },
+    {
+        "value": "ROBOT",
+        "text": "Robot"
+    },
+    {
+        "value": "OLDONE",
+        "text": "Old One"
+    }
+]
+}
