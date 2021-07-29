@@ -1,0 +1,36 @@
+<div>
+  <h2 class="text-center bg-primary text-white mt-2">
+    Selected crew member
+    <img
+      (click)="editCrewMemberClick()"
+      class="float-right"
+      src="/assets/edit_icon.png"
+      alt=""
+      width="30"
+    />
+  </h2>
+  <div class="row mt-2">
+    <div class="col-lg-2 col-sm-12"><img [src]="crewMemberPhoto" alt="" /></div>
+    <div class="col-lg-5 col-sm-12">
+      <div class="row">
+        <div class="col-3">First name</div>
+        <div class="col-9">{{ member.firstName }}</div>
+      </div>
+      <div class="row">
+        <div class="col-3">Last name</div>
+        <div class="col-9">{{ member.lastName }}</div>
+      </div>
+    </div>
+    <div class="col-lg-5 col-sm-12">
+      <div class="row">
+        <div class="col-3">Position</div>
+        <div class="col-9">{{ member.position }}</div>
+      </div>
+      <div class="row">
+        <div class="col-3">Race</div>
+        <div class="col-9">{{ member.race }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-toasts aria-live="polite" aria-atomic="true"></app-toasts>

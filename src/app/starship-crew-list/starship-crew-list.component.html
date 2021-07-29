@@ -1,0 +1,30 @@
+<h2 class="text-capitalize text-center bg-primary text-white">
+  Starship Crew List
+</h2>
+<div>
+  <div
+    class="row border m-1"
+    *ngFor="let member of crew"
+    (click)="onMemberSelect(member)"
+  >
+    <div
+      class="col-1 text-center text-white"
+      [ngClass]="member === selectedMember ? 'bg-danger' : 'bg-primary'"
+    >
+      {{ member.id }}
+    </div>
+    <div
+      class="col-11"
+      [ngClass]="
+        member === selectedMember ? 'bg-dark text-white' : 'bg-white text-dark'
+      "
+    >
+      {{ member.firstName }} {{ member.lastName }}
+    </div>
+  </div>
+  <div *ngIf="selectedMember" class="card">
+    <app-starship-crew-member
+      [member]="selectedMember"
+    ></app-starship-crew-member>
+  </div>
+</div>
