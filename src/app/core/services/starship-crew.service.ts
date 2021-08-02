@@ -11,7 +11,7 @@ export class StarshipCrewService {
     return this.crew;
   }
 
-  getOne(id: number): CrewMember | undefined {
+  getOne(id: Number): CrewMember | undefined {
     return this.crew.find((x) => x.id === id);
   }
 }

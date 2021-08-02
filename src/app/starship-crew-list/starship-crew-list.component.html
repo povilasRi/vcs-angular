@@ -5,7 +5,7 @@
   <div
     class="row border m-1"
     *ngFor="let member of crew"
-    (click)="onMemberSelect(member)"
+    [routerLink]="['/crew-member', member.id]"
   >
     <div
       class="col-1 text-center text-white"
@@ -23,8 +23,8 @@
     </div>
   </div>
   <div *ngIf="selectedMember" class="card">
-    <app-starship-crew-member
+    <!-- <app-starship-crew-member
       [member]="selectedMember"
-    ></app-starship-crew-member>
+    ></app-starship-crew-member> -->
   </div>
 </div>

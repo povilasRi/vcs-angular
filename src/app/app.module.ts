@@ -9,6 +9,10 @@ import { StarshipCrewMemberComponent } from './starship-crew-member/starship-cre
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ToastsContainer } from './shared/toast-container.component';
+import { TopMenuNavComponent } from './layout/top-menu-nav/top-menu-nav.component';
+import { AppRoutingModule } from './routing.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AuthModule } from './login/auth.module';
 
 @NgModule({
   declarations: [
@@ -18,8 +22,16 @@ import { ToastsContainer } from './shared/toast-container.component';
     HeaderComponent,
     FooterComponent,
     ToastsContainer,
+    TopMenuNavComponent,
+    PageNotFoundComponent,
   ],
-  imports: [BrowserModule, CommonModule, NgbModule],
+  imports: [
+    BrowserModule,
+    CommonModule,
+    NgbModule,
+    AuthModule,
+    AppRoutingModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

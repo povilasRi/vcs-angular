@@ -1,0 +1,59 @@
+<div>
+  <h2>Login</h2>
+  <form
+    #loginForm="ngForm"
+    (ngSubmit)="login(loginForm.value)"
+    novalidate
+    autocomplete="off"
+  >
+    <div class="mb-3 row">
+      <label for="inputUserName" class="col-form-label col-2">User name</label>
+      <div class="col-10">
+        <input
+          id="inputUserName"
+          name="userName"
+          type="text"
+          required
+          class="form-control"
+          ngModel
+          #userNameInput="ngModel"
+        />
+        <div *ngIf="userNameInput.invalid" class="text-danger">
+          User name is required.
+        </div>
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label class="col-form-label col-2">Password</label>
+      <div class="col-10">
+        <input
+          name="password"
+          type="password"
+          required
+          class="form-control"
+          ngModel
+          #passwordInput="ngModel"
+        />
+        <div *ngIf="passwordInput.invalid" class="text-danger">
+          Password is required.
+        </div>
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label class="col-form-label col-2">Email</label>
+      <div class="col-10">
+        <input name="email" type="text" class="form-control" ngModel />
+      </div>
+    </div>
+    <button
+      type="submit"
+      [disabled]="loginForm.invalid"
+      class="btn btn-primary mt-3"
+    >
+      Login
+    </button>
+    <div *ngIf="loginForm.invalid" class="text-danger">
+      Forma užpildyta su klaidomis
+    </div>
+  </form>
+</div>
